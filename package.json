@@ -1,0 +1,35 @@
+{
+  "name": "breathecode-dom",
+  "version": "1.0.0",
+  "description": "Refactor & Override of the Javascript native core to make it developer friendly.",
+  "main": "dist/dom.js",
+  "scripts": {
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/breatheco-de/breathecode-dom.git"
+  },
+  "keywords": [
+    "dom",
+    "breathecode",
+    "learn",
+    "to",
+    "code"
+  ],
+  "author": "Alejandro Sanchez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/breatheco-de/breathecode-dom/issues"
+  },
+  "homepage": "https://github.com/breatheco-de/breathecode-dom#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "webpack": "^4.16.2",
+    "webpack-cli": "^3.1.0"
+  }
+}

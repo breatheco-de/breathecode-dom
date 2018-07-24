@@ -1,6 +1,8 @@
 import BaseError from './BaseError';
 const scope = 'document';
 const call = 'querySelector';
+
+//errors
 export default {
     missing_selector: new BaseError("missing_selector", {
         scope, call,
